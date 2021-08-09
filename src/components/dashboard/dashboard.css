@@ -1,0 +1,21 @@
+.tabs {
+    display: flex;
+    padding-left: 75px;
+}
+.icons {
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+.tab {
+    /* background-color: lightcoral; */
+    padding-top: 1px ;
+    font-size: 30px;
+
+
+}
+.active {
+    color: rgb(18 64 191);
+}
