@@ -1,0 +1,81 @@
+.leads-container {
+    /* background-color: turquoise; */
+  display: flex;
+  width: 66%;
+  margin-left: 25px;
+  height: 35%;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  /* overflow: auto; */
+}
+.leads-container::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  margin-top: 28px;
+  margin-right: 12px;
+}
+.status_match {
+  display: flex;
+  height: 35%;
+}
+.status {
+  padding: 10px;
+  padding-left: 29px;
+}
+.match {
+  margin-left: 9px;
+  padding-top: 13px;
+}
+
+.pic_name_type {
+  height: 65%;
+  display: flex;
+  padding: 24px;
+}
+.avatar img {
+  width: 71px;
+  height: 71px;
+  border-radius: 50%;
+}
+
+.figure {
+  background-color: indigo;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: center;
+  margin: 16px;
+  clear: both;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 10;
+}
+.p2 {
+  clear: both;
+  white-space: nowrap;
+  font-size: 10;
+}
+.name_type {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  width: 60%;
+  height: 70%;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+.matchedleads {
+  background-color: violet;
+}
+.view-all {
+    width: 63%;
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1px;
+    padding: 4px;
+    color: blue;
+    /* background-color: violet; */
+}

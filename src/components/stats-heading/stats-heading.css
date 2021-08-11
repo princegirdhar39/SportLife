@@ -1,0 +1,29 @@
+.headers {
+    /* background-color: hotpink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 62%;
+    height: 2%;
+    padding: 15px;
+
+    
+}
+.stats {
+    /* background-color: indigo; */
+    margin-left: 17px;
+    color: rgb(18 64 191);
+    font-weight: 700;
+
+}
+.statss {
+    /* background-color: indigo; */
+    padding-bottom: 1px;
+
+    display: flex;
+    font-size: small ;
+    justify-content: center;
+    align-items: center;
+    color: rgb(18 64 191);
+
+}

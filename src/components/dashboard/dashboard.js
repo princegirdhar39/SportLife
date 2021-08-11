@@ -20,7 +20,6 @@ const icons = [
 
 
 const TABS = ["Dashboard","Bookings","Customers","Property","Inbox","Settings"];
-const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
 
 
 
@@ -31,14 +30,14 @@ export const Dashboard = () => {
         <div className = "dashboard flex flex-col items-shrink ">
             {/* <AppstoreOutlined /> */}
 
-            <div className="logo p-10">
+            <div className="logo p-10 md:py-8">
             <img alt="logo" src={logo} />
             </div>
         {TABS.map((tab,i) => {
             return(
 
                 <div className="tabs pt-6 pb-3 pl-24">
-                    <div className="icons">
+                    <div className="icons md:py-8">
 
                     {icons[i]}
 
