@@ -1,14 +1,24 @@
 import React from 'react'
 import './graph-container.css';
+import graphimage from '../../images/Screen Shot 2021-08-12 at 6.20.24 AM.png'
 
 const GraphContainer = () => {
     return (
         <div className = "graphcontainer rounded">
-            graph container
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <div className="total-customers p-8">
+                <p className="font-black text-5xl">3,256</p>
+                <p className="pt-2 font-thin text-sm">Total customers</p>
+            </div>
+            <div className="image">
 
+            <img src={graphimage} />
+            </div>
+            <div className="percent flex ">
+                <p>58%</p>
+                <p>42%</p>
+                
+            </div>
+           
             
         </div>
     )

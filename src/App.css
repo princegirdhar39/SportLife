@@ -5,7 +5,7 @@
   /* flex-direction: column; */
   max-width: 2390px;
   /* background-color: violet; */
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 .App::-webkit-scrollbar {
   display: none;

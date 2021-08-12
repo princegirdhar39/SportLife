@@ -5,3 +5,13 @@
     margin-top: 19px;
     margin-left: 25px;
 }
+.image img {
+    margin-left: 39px;
+}
+.percent {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin-left: 50px;
+}

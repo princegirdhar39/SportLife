@@ -7,3 +7,12 @@
     max-width: 65%;
 
 }
+.app-right {
+    background-color: antiquewhite;
+    display: flex;
+    width: 10%;
+    margin-top: 90px;
+    margin-left: 10px;
+    /* height: 80%; */
+}
+

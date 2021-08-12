@@ -10,8 +10,11 @@ import MatcheddLeads from "../../../components/matchedleads/matchedleads";
 
 const AppCenter = () => {
   return (
+    <>
+     
+
     <div className="center">
-      <Header />
+    <Header />
       <StatsHeading />
       
 
@@ -21,10 +24,19 @@ const AppCenter = () => {
       <Cards />
       <MatcheddLeads />
       <Cards />
+      
 
 
+    <div className="app-right">
+      <div className="top-interest">
+      App right
+
+      </div>
+   
+  </div>
 
     </div>
+  </>
   );
 };
 
