@@ -27,14 +27,15 @@ const AppCenter = () => {
       
 
 
-    <div className="app-right">
-      <div className="top-interest">
+   
+
+    <div className="app-right flex flex-row-reverse items-center justify-center w-screen">
+      <div className="top-interest flex items-end justify-end ">
       App right
 
       </div>
    
   </div>
-
     </div>
   </>
   );

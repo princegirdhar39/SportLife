@@ -2,9 +2,9 @@
     background-color: gray;
     display: flex;
     flex-direction: column;
-    flex: 1;
+    /* flex: 1; */
     background-color: #eae9e9;
-    max-width: 65%;
+    /* max-width: 25%; */
 
 }
 .app-right {
